@@ -15,4 +15,7 @@ dotnet msbuild src/MyApp -pp | grep "Target Name="
 
 dotnet msbuild src/MyApp -t:GenerateAssemblyInfo /p:Version=10.10.0
 cat src/MyApp/obj/Debug/netcoreapp2.1/MyApp.AssemblyInfo.cs
+
+msbuild /version
+msbuild src/MyApp
 ```
