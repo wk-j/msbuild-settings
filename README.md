@@ -20,5 +20,4 @@ cat src/MyApp/obj/Debug/net5.0/MyApp.AssemblyInfo.cs
 dotnet msbuild -t:Restore src/MyApp
 dotnet msbuild -t:GenerateNuSpec src/MyApp /p:authors=wk /p:description=Hello
 dotnet msbuild -t:ComputeFilesToStore src/MyApp
-dotnet msbuild -t:GenerateSingleFileBundle src/MyApp
 ```
